@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand col-5 col-md-9" href="#"
+    ><img src="assets/img/netflix.png" alt="Logo abreviado da netflix"
+  /></a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/movie" routerLinkActive="fromLeft"
+          >Filmes</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/profile" routerLinkActive="fromLeft"
+          >Perfil</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/favorite" routerLinkActive="fromLeft"
+          >Para você</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
+<ng-content></ng-content>

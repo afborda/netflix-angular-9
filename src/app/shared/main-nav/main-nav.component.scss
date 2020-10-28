@@ -1,0 +1,15 @@
+.nav-link:after {
+  display: block;
+  content: '';
+  border-bottom: solid 3px red;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.nav-link:hover:after {
+  transform: scaleX(1);
+}
+
+.nav-link.fromLeft:after {
+  transform-origin: 0% 50%;
+}
